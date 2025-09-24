@@ -1,0 +1,1 @@
+Review this plan for over-engineering. Apply "fool-proof > bullet-proof" - prioritize simple and reliable over complex and perfect. Flag unnecessary abstractions, premature optimizations, and YAGNI violations. What's the simplest version that solves the actual problem?
