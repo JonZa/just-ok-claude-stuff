@@ -1,3 +1,14 @@
-Analyze staged changes, identify domains affected, and assign appropriate subagents with specific review criteria. Each should check for code quality, consistency with existing patterns, performance implications, and potential bugs. 
+Analyze staged changes and identify domains affected (Vue components, TypeScript, CSS, API layer, Nx config).
 
-Prepare a numbered list of specific recommendations that I can reference for implementation.
+Review against project-philosophy and relevant convention skills. Apply "fool-proof > bullet-proof" — flag only issues that solve actual problems, not theoretical improvements.
+
+Check for:
+
+- Consistency with existing patterns
+- Performance implications
+- Potential bugs
+- YAGNI violations
+
+Prepare a numbered list of specific, actionable recommendations. Each should reference specific code and propose the simplest fix.
+
+Omit: style nitpicks covered by linters, "consider adding" suggestions, future-proofing.
